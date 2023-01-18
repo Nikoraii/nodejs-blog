@@ -7,7 +7,6 @@ const userRoute = require("./routes/users");
 const postRoute = require("./routes/posts");
 const commentRoute = require("./routes/comments");
 
-
 dotenv.config();
 app.use(express.json());
 
