@@ -7,6 +7,12 @@ const userRoute = require("./routes/users");
 const postRoute = require("./routes/posts");
 const commentRoute = require("./routes/comments");
 
+const http = require("http");
+
+app.listen(process.env.PORT, '0.0.0.0', function(err) {
+    console.log("Started listening on %s", app.url);
+});
+
 dotenv.config();
 app.use(express.json());
 
