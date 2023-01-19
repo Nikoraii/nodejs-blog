@@ -14,6 +14,10 @@ app.listen("5000", () => {
     console.log("Backend is running. v2");
 });
 
+app.get("/", (req, res) => {
+    res.send("Test");
+});
+
 mongoose.connect(process.env.MONGO_URL, {
 
 }).then(console.log("Connected")).catch((err) => console.log(err));
