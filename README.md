@@ -1,6 +1,6 @@
 # Node and Express Blog REST API
 > Full CRUD REST API using Node.js with no framework
-Hosted on [Cyclic](https://long-teal-salmon-kilt.cyclic.app/)
+## Hosted on [Cyclic](https://long-teal-salmon-kilt.cyclic.app/)
 
 ```
 # Routes
